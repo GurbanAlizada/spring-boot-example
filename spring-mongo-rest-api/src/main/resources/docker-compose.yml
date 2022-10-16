@@ -1,0 +1,11 @@
+version: '3.1'
+services:
+  mongo:
+    image: mongo
+    ports:
+     - '27017:27017'
+    command:
+      --serviceExecutor adaptive
+
+
+#  docker run --name some-mongo2 -p 27017:27017  -d mongo:latest
