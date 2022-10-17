@@ -8,6 +8,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.mongodb.repository.config.EnableMongoRepositories;
 
+import java.util.HashMap;
+
 @SpringBootApplication
 @EnableMongoRepositories
 public class Application implements CommandLineRunner {
@@ -28,7 +30,9 @@ public class Application implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        User user = new User("1" , "Qurban" , "asdf" , null);
+        HashMap<String ,String> hashMap = new HashMap<>();
+        hashMap.put("phone" , "34232442");
+        User user = new User("Fenerbahce" , "Qurban" , "asdf" , hashMap);
         userRepo.save(user);
     }
 }
