@@ -12,6 +12,7 @@
         <module name="spring-rest-template" />
         <module name="spring-graphql" />
         <module name="spring-rabbit-mq" />
+        <module name="spring-redis-cache" />
         <module name="spring-mongo-rest-api" />
         <module name="spring-boot-example" />
       </profile>
@@ -29,6 +30,7 @@
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-postgresql" options="-parameters" />
       <module name="spring-rabbit-mq" options="-parameters" />
+      <module name="spring-redis-cache" options="-parameters" />
       <module name="spring-rest-template" options="-parameters" />
     </option>
   </component>
