@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rabbit-mq/pom.xml" />
         <option value="$PROJECT_DIR$/spring-graphql/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-rest-template/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
