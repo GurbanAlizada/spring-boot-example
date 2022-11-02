@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elasticsearch" />
+        <module name="spring-web-socket" />
         <module name="spring-postgresql" />
         <module name="spring-rest-template" />
         <module name="spring-graphql" />
@@ -32,6 +33,7 @@
       <module name="spring-rabbit-mq" options="-parameters" />
       <module name="spring-redis-cache" options="-parameters" />
       <module name="spring-rest-template" options="-parameters" />
+      <module name="spring-web-socket" options="-parameters" />
     </option>
   </component>
 </project>

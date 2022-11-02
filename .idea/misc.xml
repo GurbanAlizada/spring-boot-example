@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/spring-graphql/pom.xml" />
         <option value="$PROJECT_DIR$/spring-rest-template/pom.xml" />
         <option value="$PROJECT_DIR$/spring-redis-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-web-socket/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
