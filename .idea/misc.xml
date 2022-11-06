@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/spring-rest-template/pom.xml" />
         <option value="$PROJECT_DIR$/spring-redis-cache/pom.xml" />
         <option value="$PROJECT_DIR$/spring-web-socket/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-events/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-gridfs-file-upload/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

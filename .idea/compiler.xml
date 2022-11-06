@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-events" />
         <module name="spring-elasticsearch" />
         <module name="spring-web-socket" />
         <module name="spring-postgresql" />
         <module name="spring-rest-template" />
         <module name="spring-graphql" />
+        <module name="spring-gridfs-file-upload" />
         <module name="spring-rabbit-mq" />
         <module name="spring-redis-cache" />
         <module name="spring-mongo-rest-api" />
@@ -24,9 +26,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-events" options="-parameters" />
       <module name="spring-boot-example" options="-parameters" />
       <module name="spring-elasticsearch" options="-parameters" />
       <module name="spring-graphql" options="-parameters" />
+      <module name="spring-gridfs-file-upload" options="-parameters" />
       <module name="spring-hello-world-api" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-postgresql" options="-parameters" />
