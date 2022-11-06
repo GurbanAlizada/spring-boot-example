@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/spring-web-socket/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-events/pom.xml" />
         <option value="$PROJECT_DIR$/spring-gridfs-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-kafka/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

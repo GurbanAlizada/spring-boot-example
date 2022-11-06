@@ -13,6 +13,7 @@
         <module name="spring-postgresql" />
         <module name="spring-rest-template" />
         <module name="spring-graphql" />
+        <module name="spring-kafka" />
         <module name="spring-gridfs-file-upload" />
         <module name="spring-rabbit-mq" />
         <module name="spring-redis-cache" />
@@ -32,6 +33,7 @@
       <module name="spring-graphql" options="-parameters" />
       <module name="spring-gridfs-file-upload" options="-parameters" />
       <module name="spring-hello-world-api" options="-parameters" />
+      <module name="spring-kafka" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-postgresql" options="-parameters" />
       <module name="spring-rabbit-mq" options="-parameters" />
